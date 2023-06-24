@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+header {
+  max-width: 100%;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  
+}
+
+.logo-container > img {
+  width: 250px !important;
+  height: 120px;
+  
+}
+.logo-container  button {
+  font-size: 30px;
+  padding: 0 10px;
+  border-radius: 7px;
+  background-color: rgb(126, 181, 248);
+}
+.logo-container  button:hover {
+    background-color: rgb(16, 16, 243);
+    color: rgb(255, 255, 255);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  max-width: 100%;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  list-style-type: none;
+  font-size: 30px;
+}
+nav  a {
+  text-decoration: none;
+  color:rgb(46, 36, 36)
+}
+nav a:hover {
+    color: rgb(35, 35, 249);
+}
+
+.main-container {
+  margin: 50px 150px;
+}
+
+#label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#label > ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin-right: 50px;
+}
+
+#label > ul > a > li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#main-img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#main-img > img {
+  max-width: 100%;
+}
+
+.main-container p {
+  font-size: 1.2rem;
+}
+
+.main-container > .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 20px;
+}
+
+.main-container > .info h3 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.main-container > .info ol {
+  list-style-type: square;
+  color: rgb(17, 93, 200);
+}
+
+.main-container > .info li {
+  font-size: 1.2rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(46, 36, 36);
+}
+
+footer img {
+  width: 250px;
+  margin-left: 30px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(235, 222, 222);
+}
+
+footer > ul > a:hover {
+  color: rgb(37, 37, 221);
+}
+footer li {
+  font-size: 1.2rem;
+  margin-left: 25px;
+}
